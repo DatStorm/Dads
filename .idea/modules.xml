@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Dads.iml" filepath="$PROJECT_DIR$/.idea/Dads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dads1_Algorithems/Dads1_Algorithems.iml" filepath="$PROJECT_DIR$/Dads1_Algorithems/Dads1_Algorithems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dads2_Algorithems/Dads2_Algorithems.iml" filepath="$PROJECT_DIR$/Dads2_Algorithems/Dads2_Algorithems.iml" />
+    </modules>
+  </component>
+</project>
