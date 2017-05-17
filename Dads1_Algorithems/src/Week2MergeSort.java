@@ -3,6 +3,22 @@
  */
 public class Week2MergeSort {
 
+            public static void main(String args[]){
+            int input1[] = {1};
+            int input2[] = {4,2};
+            int input3[] = {6,2,9};
+            int input4[] = {6,-1,10,4,11,14,19,12,18};
+            MergeSort ms = new MergeSort();
+            ms.sort(input1);
+            ms.sort(input2);
+            ms.sort(input3);
+            ms.sort(input4);
+
+            ms.printArray(input1);
+            ms.printArray(input2);
+            ms.printArray(input3);
+            ms.printArray(input4);
+        }
 
 
     public static void MergeSort(int[] A, int p, int r){
@@ -28,7 +44,7 @@ public class Week2MergeSort {
     }
 
     // FROM MASTER
-    class MergeSort {
+    static class MergeSort {
 
         public void sort(int input[]){
             sort(input, 0, input.length-1);
@@ -78,21 +94,6 @@ public class Week2MergeSort {
             System.out.println();
         }
 
-//        public static void main(String args[]){
-//            int input1[] = {1};
-//            int input2[] = {4,2};
-//            int input3[] = {6,2,9};
-//            int input4[] = {6,-1,10,4,11,14,19,12,18};
-//            MergeSort ms = new MergeSort();
-//            ms.sort(input1);
-//            ms.sort(input2);
-//            ms.sort(input3);
-//            ms.sort(input4);
-//
-//            ms.printArray(input1);
-//            ms.printArray(input2);
-//            ms.printArray(input3);
-//            ms.printArray(input4);
-//        }
+
     }
 }

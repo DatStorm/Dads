@@ -8,8 +8,10 @@ public class Week1InsertionSort {
     // worst case n^2
     // best case n
     // average n^2
+    public static void main(String[] args) {
 
-    public static void insertionSort(int[] A){
+    }
+    public void insertionSort(int[] A){
         int key = 0;
         for (int j = 2; j < A.length; j++) {
             key = A[j];
@@ -23,10 +25,6 @@ public class Week1InsertionSort {
                 i = i -1;
             }
             A[i+1] = key;
-
-
-
-
         }
     }
 }
